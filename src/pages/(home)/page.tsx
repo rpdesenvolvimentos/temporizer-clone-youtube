@@ -128,7 +128,7 @@ export function Home() {
         {/* Contador */}
         <div
           className={cn(
-            'font-orbitron flex select-none items-center text-[2.5rem] font-medium text-emerald-500 transition-all sm:text-[4rem] md:text-[6rem] lg:text-[8rem]',
+            'flex select-none items-center font-orbitron text-[2.5rem] font-medium text-emerald-500 transition-all sm:text-[4rem] md:text-[6rem] lg:text-[8rem]',
             hasFinished && 'text-white',
           )}
         >
@@ -153,7 +153,7 @@ export function Home() {
                       updateTimePart('hours', e.target.value, hoursRight)
                     }
                     className={cn(
-                      'font-orbitron w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center outline-none',
+                      'w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center font-orbitron outline-none',
                       hasEdit && 'border-emerald-500',
                     )}
                   />
@@ -166,7 +166,7 @@ export function Home() {
                       updateTimePart('hours', hoursLeft, e.target.value)
                     }
                     className={cn(
-                      'font-orbitron w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center outline-none',
+                      'w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center font-orbitron outline-none',
                       hasEdit && 'border-emerald-500',
                     )}
                   />
@@ -182,7 +182,7 @@ export function Home() {
                       updateTimePart('minutes', e.target.value, minutesRight)
                     }
                     className={cn(
-                      'font-orbitron w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center outline-none',
+                      'w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center font-orbitron outline-none',
                       hasEdit && 'border-emerald-500',
                     )}
                   />
@@ -195,7 +195,7 @@ export function Home() {
                       updateTimePart('minutes', minutesLeft, e.target.value)
                     }
                     className={cn(
-                      'font-orbitron w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center outline-none',
+                      'w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center font-orbitron outline-none',
                       hasEdit && 'border-emerald-500',
                     )}
                   />
@@ -211,7 +211,7 @@ export function Home() {
                     }
                     value={secondsLeft}
                     className={cn(
-                      'font-orbitron w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center outline-none',
+                      'w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center font-orbitron outline-none',
                       hasEdit && 'border-emerald-500',
                     )}
                   />
@@ -224,7 +224,7 @@ export function Home() {
                       updateTimePart('seconds', secondsLeft, e.target.value)
                     }
                     className={cn(
-                      'font-orbitron w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center outline-none',
+                      'w-[1.2ch] rounded-sm border-2 border-transparent bg-zinc-800 text-center font-orbitron outline-none',
                       hasEdit && 'border-emerald-500',
                     )}
                   />
